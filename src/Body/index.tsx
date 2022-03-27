@@ -1,4 +1,4 @@
-import Metric from "@/components/Metric";
+import Metric from "../components/Metric";
 
 const Body = () => {
   return (

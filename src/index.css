@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+body {
+  margin: 0;
+  font-family: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol" !important;
+  /* background-color: rgb(0 0 0); */
+  color: white;
+  font-feature-settings: "tnum", "tnum";
+  font-variant: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .wave-bg {
+    overflow: hidden;
+    width: 70vw;
+    height: 800px;
+    padding-top: 300px;
+    pointer-events: none;
+  }
+  #section-0 {
+    min-height: 736px;
+  }
+}
+@media (max-width: 1280px) {
+  .wave-bg {
+    width: 1000px;
+    height: 800px;
+    padding-top: 300px;
+    pointer-events: none;
+  }
+  #section-0 {
+    min-height: 600px;
+  }
+}

@@ -1,6 +1,7 @@
 {
   "name": "wave",
   "version": "0.1.0",
+  "homepage": "/wave/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.3",
